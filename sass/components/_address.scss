@@ -1,0 +1,52 @@
+.address-list {
+    margin-bottom: 60px;
+        @media screen and (min-width: 768px) {
+        margin-bottom: 0;        
+            }
+        
+            @media screen and (min-width: 1200px) {
+                
+            }
+}
+
+
+.address-link {
+    line-height: 1.71;
+    color: var(--contrast-text-h-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-item {
+    &:first-child{
+        margin-bottom: 8px;
+    }
+    &:last-child{
+        margin-top: 5px;
+    }
+
+@media screen and (min-width: 768px) {
+&:not(last-child) {
+    margin-bottom: 9px;
+}}
+
+                
+@media screen and (min-width: 1200px) {}
+}
+
+.footer-contacts-container {
+
+
+            @media screen and (min-width: 768px) {
+                    display: flex;
+                    gap: 70px;
+                    align-items: baseline;
+                }
+            
+                @media screen and (min-width: 1200px) {}
+}
